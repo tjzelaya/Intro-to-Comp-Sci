@@ -8,7 +8,7 @@ public class ComputeThis {
 		System.out.println(d1);
 		
 		double d2 = (Math.pow(14.72, 3.801)) + (Math.log(72));
-		System.out.println(d2);ghkgjh
+		System.out.println(d2);
 
 	}
 
