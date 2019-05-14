@@ -20,7 +20,6 @@ public class userinput {
 		System.out.println("Each player has an average weight of " + weight + " lbs");
 		System.out.println("The league has a combined weight on " + weight*teams*players + " lbs");
 		
-
 	}
 
 }
