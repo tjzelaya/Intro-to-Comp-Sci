@@ -14,6 +14,7 @@ public class NameCount {
 		wname3 = (wname.substring(0,wname2));
 		System.out.println(wname3);
 		
+		
 
 	}
 
