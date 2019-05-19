@@ -11,6 +11,12 @@ public class QuadraticEquation {
 		double bvalue = userInput.nextDouble();
 		System.out.println("Please enter the C value.");
 		double cvalue = userInput.nextDouble();
+		double d = (-bvalue + Math.sqrt(Math.pow(bvalue,2) - 4*(avalue)*(cvalue)));
+		double e = (d /2*(avalue));
+		System.out.println("Plus = " + e);
+		double f = (-bvalue - Math.sqrt(Math.pow(bvalue,2) - 4*(avalue)*(cvalue)));
+		double g = (f/2*(avalue));
+		System.out.println("Minus = " + g);
 		
 
 	}
