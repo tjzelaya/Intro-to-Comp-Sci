@@ -16,7 +16,17 @@ public class QuadraticEquation {
 		System.out.println("Plus = " + e);
 		double f = (-bvalue - Math.sqrt(Math.pow(bvalue,2) - 4*(avalue)*(cvalue)));
 		double g = (f/2*(avalue));
-		System.out.println("Minus = " + g);
+		System.out.println("Minus = " + g); 
+		
+		Scanner userInput2 = new Scanner (System.in);
+		System.out.println("Please enter a sentence.");
+		String x = userInput2.nextLine();
+		System.out.println("What letter shall I find?");
+		String c = userInput2.nextLine();
+		System.out.println("Your letter occurs at index " + x.indexOf(c));
+		
+		
+		
 		
 
 	}

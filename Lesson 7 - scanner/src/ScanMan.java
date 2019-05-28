@@ -19,7 +19,6 @@ public class ScanMan {
 		System.out.println("What is your name?");
 		String name = scan.nextLine();
 		System.out.println("How old are you?");
-	
 		System.out.println(name + " is " + age + " years old!");
 
 	}
